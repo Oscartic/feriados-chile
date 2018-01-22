@@ -26,3 +26,8 @@ test:
 production:
   <<: *default
   database: db/production_holidays
+  host: ec2-174-129-22-84.compute-1.amazonaws.com
+  database: dfo2htnaogabu1
+  User: xaunsppndblfms
+  Port: 5432
+  Password: 02dac7d61663544f0f9006c77a2b3588dc8f36ab97d0816e5959a464314380ae
